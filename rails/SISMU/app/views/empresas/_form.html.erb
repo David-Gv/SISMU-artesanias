@@ -52,13 +52,6 @@
         <% end %>
       </div>
 
-      <div>       
-        <%= f.label :barrio, "Barrio "%>
-        <%= f.input_field :barrio %> 
-        <% if @empresa.errors[:barrio].any? %>
-          <p class="text-danger"><%= @empresa.errors[:barrio].first %></p>
-        <% end %>
-      </div> 
     </section> 
 
     <section class="botonesNew">
